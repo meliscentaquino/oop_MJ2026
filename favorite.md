@@ -1,5 +1,4 @@
-# name
-Mjiee's Favess
+# Mjiee's Favess
 
 ## fave FOOD
 Chicken
