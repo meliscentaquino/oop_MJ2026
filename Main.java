@@ -1,5 +1,5 @@
 public class Main {
-    public static void main(String[ args]){
+    public static void main(String[] args){
         Laptop obj1 = new Laptop();
         obj1.brand = "Asus";
         obj1.storage = 512;
