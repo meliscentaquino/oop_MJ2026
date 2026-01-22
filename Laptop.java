@@ -9,7 +9,7 @@ public class Laptop{
 
     void printDetails(){
         System.out.printf("""
-        %s %s %s
-        """, condition, brand, model);
+        %s \n%s \n%s \n%s \n%s \n%s \n%s
+        """, brand, storage, memory, dimension, model, condition, price);
     }
 }
