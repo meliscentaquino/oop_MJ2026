@@ -1,6 +1,6 @@
 class Circle {
     double radius;
-    static final double PI = 3.24;
+    static final double PI = 3.14;
 
     public Circle() {}
 
