@@ -5,11 +5,13 @@ public class Student {
     String lastName;
     String gender;
     String email;
-    
+
     static int totalStudents = 0;
 
-    public Student(){}
-    public Student(int studentId, String firstName, String middleName, String lastName, String gender, String email){
+    public Student() {
+    }
+
+    public Student(int studentId, String firstName, String middleName, String lastName, String gender, String email) {
         this.studentId = studentId;
         this.firstName = firstName;
         this.middleName = middleName;
@@ -18,13 +20,17 @@ public class Student {
         this.email = email;
         Student.totalStudents++;
     }
-    public String displayStudentInfo(){
-        return studentId +"\n" + "Name: " + firstName + middleName + lastName + "\n" + "Gender:" + gender + "\n" + "Email:" + email;
+
+    public void displayStudentInfo() {
+        System.out.println("Student ID: " + studentId);
+        System.out.println("Name: " + firstName + " " + middleName + " " + lastName);
+        System.out.println("Gender: " + gender);
+        System.out.println("Email: " + email);
     }
-    public String getTotalStudents(){
+
+    public static int getTotalStudents() {
         return totalStudents;
 
     }
-
 
 }
